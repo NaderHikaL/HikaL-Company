@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -340,4 +341,348 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <title>Contact Us</title>
+
+
+
+
+    <style>
+      .style 
+      *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+      
+      }
+      
+
+
+      .wrapper{
+      
+          color: #f2f2f2;
+          background: #011126;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+          background: url(./assets/imgs/form.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+       
+         
+      }
+      
+      .wrapper h2{
+        
+          font-size: 45px;
+          text-align: center;
+      }
+      
+      .wrapper .input-box{
+          position: relative;
+          width: 100%;
+          height: 50px;
+          margin: 30px 0;
+      
+      }
+      
+      .input-box input {
+          
+          width: 100%;
+          height: 100%;
+          background: transparent;
+          border: none;
+          outline: none;
+          border: 2px solid rgb(254, 254, 254);
+          border-radius: 40px;
+          font-size: 17px;
+          color: #ffffff;
+          padding: 20px 45px 20px 20px ;
+      }
+      .input-box input::placeholder{
+          color: #ffffff;
+      }
+      .input-box i {
+      
+          position: absolute;
+          right: 20px;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 20px;
+      
+      
+      }
+      .wrapper .remember-forgot{
+      
+      display: flex;
+      justify-content:space-between ;
+      font-size: 15px;
+      margin: -15px 0 15px ;
+      
+      }
+      .remember-forgot label input{
+          accent-color: #fff;
+          margin-right: 3px;
+      }
+      
+      .remember-forgot a {
+          color: #fff;
+          text-decoration: none;
+      }
+      
+      .remember-forgot a:hover{
+          text-decoration: underline;
+      }
+      
+      .wrapper .btnform {
+          width: 100%;
+          height: 30px;
+          border-radius: 30px;
+          background: var(--clr-11);
+          border: none;
+          outline: none;
+          box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+          cursor: pointer;
+          font-size: 17px;
+          color: #333;
+          font-weight: 700;
+      
+      }
+      
+      .wrapper .register-link{
+      
+          font-size: 15px;
+          text-align: center;
+          margin: 20px 0 15px;
+      
+      }
+      
+      .register-link p a {
+      
+          color: #fff;
+          text-decoration: none;
+          font-weight: 700;
+      
+      }
+      
+      .register-link p a:hover {
+          text-decoration: underline;
+      
+      }
+      .contactimg{
+          height: 100%;
+          width: 100%;
+      }
+      
+      
+      </style> 
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary text-light">
+    <div class="container">
+      <span class="navbar-brand" href="#">
+        <span class="">HikaLs</span>
+        'Group
+      </span>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+       
+      >
+        <!-- <span class="navbar-toggler-icon "></span> -->
+        <ion-icon class="text-light" name="menu"></ion-icon>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!--------------------------------------------------->
+    <!-- <div class="container">
+        <div class="row py-5 g-3">
+            <div class="col-md-6 first_col">
+                <h2 class="text-center mt-3">ContaCt Us</h2>
+                <form class="p-4 mt-5">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Enter Your Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" your name">
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Enter Your EmaiL </label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Enter Any Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <div class="mb-3">
+                        <button class="btn btn-primary">Send Now</button>
+                      </div>
+
+                </form>
+
+            </div>
+            <------------------------------------->
+            <!-- <div class="col-md-6">
+                <img src="assets/imgs/whitetower.jpg" alt="" class="img-fluid">
+
+            </div>
+
+        </div>
+        <div class="last_row">
+            <div class="row row-cols-1 row-cols-3 p-3 text-black">
+                <div class="col">
+                    <h4>CALL US</h4>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        ommodi saepe molestiae iusto tempore impedit.</P>
+
+                </div>
+                <div class="col">
+                    <h4>CALL US</h4>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          commodi saepe molestiae iusto tempore impedit.</P>
+
+                </div>
+                <div class="col">
+                    <h4>CALL US</h4>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          commodi saepe molestiae iusto tempore impedit.</P>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div> --> 
+
+<!-- <img src="/assets/imgs/bigovertower.jpg" class="contactimg" alt=""> -->
+<div class="wrapper">
+  <form>
+
+    <h2>Login</h2>
+    <div class="input-box">
+      <input type="text" placeholder="Username" required>
+      <i>
+        <ion-icon name="person-add"></ion-icon>
+    </i>
+    </div>
+
+
+    <div class="input-box">
+      <input type="password" placeholder="password" required>
+      <i>
+        <ion-icon name="lock-closed"></ion-icon>
+    </i>
+    </div>
+
+
+    <div class="remember-forgot">
+      <label ><input type="checkbox">Remember Me</label>
+      <a href="#">Forgot password ?</a>
+    
+    </div>
+
+
+    <button type="submit" class="btnform">Login</button>
+
+
+    <div class="register-link">
+      <p>Don't have an account ? <a href="#">register</a></p>
+    </div>
+
+  </form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+>>>>>>> 813dbb340ca5621f4ffc8f7099207a8c972b8e9d
 </html>
