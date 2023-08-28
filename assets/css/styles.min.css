@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 :root {
     --clr-1: #0a2658;
     --clr-2: #cbe5fe;
@@ -341,10 +341,10 @@ margin: -15px 0 15px ;
 }
 body {
     /* background: rgb(228, 228, 228); */
-    background-color: #011126;
-    font-family: 'Rubik', sans-serif;
+    /* background-color : #011126;
+    font-family: 'Rubik', sans-serif; */
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
-}
+
 
 .bg-main {
     background-color: var(--clr-1)
@@ -632,5 +632,5 @@ margin: -15px 0 15px ;
 .contactimg{
     height: 100%;
     width: 100%;
->>>>>>> 813dbb340ca5621f4ffc8f7099207a8c972b8e9d
+
 } */

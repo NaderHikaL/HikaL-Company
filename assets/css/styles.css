@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* :root {
     --clr-1: #0a2658;
     --clr-2: #cbe5fe;
@@ -209,7 +209,7 @@ body {
     display: -webkit-flex;
     display: flex;
     overflow: hidden;
-=======
+
 /* :root {
     --clr-1: #0a2658;
     --clr-2: #cbe5fe;
@@ -420,5 +420,5 @@ body {
     display: -webkit-flex;
     display: flex;
     overflow: hidden;
->>>>>>> 813dbb340ca5621f4ffc8f7099207a8c972b8e9d
+
 }
