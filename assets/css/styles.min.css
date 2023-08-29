@@ -133,38 +133,41 @@ body {
 .btn:hover{
     background-color: #776bff;
 } */
-.fallwidth{
-    background-image: url(/assets/imgs/attatshment.jpg);
-   
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.fallwidth{ 
+    background-image: url(/assets/imgs/attatshment.jpg) !important;
     
-    width: 100%;
-} 
-.fall{
-    background-image: url(/assets/imgs/vila3.jpg);
-   
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    height: 500px !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
     
-    width: 100%;
+    width: 100% !important;
+}  
+    
+    .fall{
+    background-image: url(/assets/imgs/vila3.jpg) !important;
+   
+    height: 500px !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    
+    
+    width: 100% !important;
 } 
 .fallcover{
-    background-image: url(/assets/imgs/attatshment2.jpg);
+    background-image: url(/assets/imgs/attatshment2.jpg) !important ;
    
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    height: 500px !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+
     
-    width: 100%;
+    width: 100% !important;
 } 
 .footer{
    background-color: var(--clr-11);
