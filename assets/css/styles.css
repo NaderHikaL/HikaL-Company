@@ -172,35 +172,46 @@ body {
   
         text-align: center;
          text-decoration-color:light;
-    }
+        }
 
     .carousel-caption {
         bottom: 125px;
 
     }
-
+    
     .carousel-caption h5 {
         font-size: 17px;
-
+        
     }
-
+    
     .carousel-caption a {
         padding: 10px 15px;
     }
-
+    
     .carousel-caption p {
         width: 100%;
         line-height: 1.6;
         font-size: 12px;
     }
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+/*     
 }
+@media (min-width: 768px),
+(max-width :991px) {
+    .fallcover{
+        bottom: 370px;
+    }
+
+    .fallcover {
+        width: 100%;
+    }
+
+} */
 
 
 
