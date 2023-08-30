@@ -134,40 +134,40 @@ body {
     background-color: #776bff;
 } */
 .fallwidth{ 
-    background-image: url(assets/imgs/attatshment.jpg) !important;
+    background-image: url(assets/imgs/attatshment.jpg);
     
-    height: 500px !important;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
-    width: 100% !important;
+    width: 100% ;
 }  
     
     .fall{
-    background-image: url(assets/imgs/vila3.jpg) !important;
+    background-image: url(assets/imgs/vila3.jpg);
    
-    height: 500px !important;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
     
-    width: 100% !important;
+    width: 100% ;
 } 
 .fallcover{
-    background-image: url(assets/imgs/attatshment2.jpg) !important ;
+    background-image: url(assets/imgs/attatshment2.jpg) ;
    
-    height: 500px !important;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
+    height: 500px;
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
 
     
-    width: 100% !important;
+    width: 100% ;
 } 
 .footer{
    background-color: var(--clr-11);
