@@ -135,38 +135,38 @@ body {
 } */
 .fallwidth{ 
    
-    
-    height: 500px;
+    background-image: url(assets/imgs/attatshment.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
+    height: 500px;
     width: 100% ;
 }  
     
     .fall{
     
-   
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    
+        background-image: url(assets/imgs/vila3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        
+        height: 500px;
     width: 100% ;
 } 
 .fallcover{
     
-   
-    height: 500px;
+    background-image: url(assets/imgs/attatshment2.jpg) ;
     background-position: center;
     background-size: cover ;
     background-repeat: no-repeat ;
     background-attachment: fixed ;
-
     
+    
+    height: 500px;
     width: 100% ;
 } 
 .footer{
