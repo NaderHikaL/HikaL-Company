@@ -141,6 +141,7 @@ body {
 .btn:hover{
     background-color: #776bff;
 } */
+<<<<<<< HEAD
 /* div.photo {
 
     /* background-image: url(/assets/imgs/attatshment.webp); */
@@ -186,6 +187,51 @@ body {
 
 }
 
+=======
+.fallwidth {
+
+
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 100%;
+}
+
+.fall {
+
+
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    width: 100%;
+}
+
+.fallcover {
+
+
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    width: 100%;
+}
+
+.footer {
+    background-color: var(--clr-11);
+
+}
+
+>>>>>>> 8eb96352c548654e4a998243d5c16e2913505b1c
 .Copyright a {
     text-decoration: none;
 
@@ -483,7 +529,11 @@ body {
     background-color: #776bff;
 } */
 .fallwidth {
+<<<<<<< HEAD
     background-image: url(/assets/imgs/attatshment.jpg);
+=======
+    background-image: url(assets/imgs/attatshment.webp);
+>>>>>>> 8eb96352c548654e4a998243d5c16e2913505b1c
 
     height: 500px;
     background-position: center;
@@ -495,7 +545,11 @@ body {
 }
 
 .fall {
+<<<<<<< HEAD
     background-image: url(/assets/imgs/vila3.jpg);
+=======
+    background-image: url(assets/imgs/vila3.webp);
+>>>>>>> 8eb96352c548654e4a998243d5c16e2913505b1c
 
     height: 500px;
     background-position: center;
@@ -507,7 +561,11 @@ body {
 }
 
 .fallcover {
+<<<<<<< HEAD
     background-image: url(/assets/imgs/attatshment2.jpg);
+=======
+    background-image: url(assets/imgs/attatshment2.webp);
+>>>>>>> 8eb96352c548654e4a998243d5c16e2913505b1c
 
     height: 500px;
     background-position: center;

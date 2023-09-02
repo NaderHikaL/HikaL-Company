@@ -35,14 +35,12 @@
     left: 0;
     background: rgba(255, 255, 255, 0.7);
     z-index: 1;
-
 }
 
 .navbar-nav a {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
-
 }
 
 .navbar-light .navbar-brand {
@@ -56,7 +54,6 @@
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
     color: #ffffff;
-
 }
 
 .navbar-light .navbar-nav .navbar-link {
@@ -72,12 +69,10 @@
 }
 
 .team .card-body i {
-    
     font-size: 20px;
 }
 
 .portfolio .card {
-
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
@@ -86,16 +81,23 @@
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
+<<<<<<< HEAD
+=======
+.img {
+    width: 100%;
+    height: 100%;
+}
+>>>>>>> 8eb96352c548654e4a998243d5c16e2913505b1c
 
 /* .btn:hover {
     background-color: #08678C;
 
 } */
- /* .navbar-toggler-icon  {
+/* .navbar-toggler-icon  {
     /* text:white;
     color: #eaeaea; */
-    /* color:white; */
-     
+/* color:white; */
+
 
 
 
@@ -118,36 +120,36 @@
 
 @media(max-width:767px) {
     .navbar-nav {
-  
+
         text-align: center;
-         text-decoration-color:light;
-        }
+        text-decoration-color: light;
+    }
 
     .carousel-caption {
         bottom: 125px;
 
     }
-    
+
     .carousel-caption h5 {
         font-size: 17px;
-        
+
     }
-    
+
     .carousel-caption a {
         padding: 10px 15px;
     }
-    
+
     .carousel-caption p {
         width: 100%;
         line-height: 1.6;
         font-size: 12px;
     }
-    
+
 }
-    
-    
-    
-    
+
+
+
+
 /*     
 }
 @media (min-width: 768px),
@@ -161,7 +163,3 @@
     }
 
 } */
-
-
-
-
